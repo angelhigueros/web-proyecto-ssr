@@ -1,0 +1,72 @@
+.characters-container {
+  margin-top: -50px;
+  z-index: -1;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.characters-story {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1080px;
+  width: 100%;
+  color: #ffffff;
+  z-index: 8;
+}
+
+.characters-story span {
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.characters-cards-1 {
+  margin-top: 50px;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.characters-cards-2 {
+  margin-top: 40px;
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.characters-item {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+
+.characters-item h3 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  background-color: #000;
+  transition: all 220ms ease-in-out;
+  font-size: 0.8rem;
+  margin: 0;
+  height: 25px;
+}
+
+.characters-item:hover h3 {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #ffff;
+}
+
+.characters-item:hover {
+  border: #ffff;
+}

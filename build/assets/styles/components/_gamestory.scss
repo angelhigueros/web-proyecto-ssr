@@ -1,0 +1,58 @@
+.gamestory-container {
+  margin-top: -50px;z-index: -1;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reverse {
+  transform: rotate(180deg);
+}
+
+.gamestory-story {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1080px;
+  width: 100%;
+  color: #ffffff;
+  z-index: 8;
+}
+
+.gamestory-text {
+  max-width: 650px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+}
+
+
+.gamestory-buttons {
+  margin-bottom: 20px;
+  font-family: inherit;
+  margin: 0;
+  text-transform: none;
+}
+
+.gamestory-buttons button {
+  display: inline;
+  background-color: transparent;
+  color: white;
+  font-family: 'itc_benguiatbold', Arial, sans-serif;
+  font-weight: bolder;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+
+
+
+

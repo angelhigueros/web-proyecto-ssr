@@ -1,0 +1,7 @@
+config.js
+db.js
+node_modules
+*.jpg
+*.png
+*.svg
+*.jpeg

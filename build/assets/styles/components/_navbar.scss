@@ -1,0 +1,40 @@
+.navbar-container {
+  height: 60px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.item-logo {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-menu {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item-logo img {
+  width: 200px;
+}
+
+.item-1 {
+  border: 1px solid white;
+  padding: 12px 25px;
+}
+
+.item-2 {
+  border: 1px double white;
+  padding: 12px 25px;
+}
+

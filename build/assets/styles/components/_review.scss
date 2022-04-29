@@ -1,0 +1,18 @@
+.review-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.review-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: black;
+}
+
+.review-2 {
+  width: 50%;
+  background-color: black;
+}

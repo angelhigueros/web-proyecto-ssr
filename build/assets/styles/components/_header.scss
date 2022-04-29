@@ -1,0 +1,29 @@
+.header-container {
+  height: 40px;
+  background-color: rgb(13 13 13);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.item-left img {
+  width: 170px;
+  margin: 10px;
+}
+
+.item-right span {
+  width: 100px;
+}
+
+.item-right i {
+  width: 50px;
+}
+
+.item-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
